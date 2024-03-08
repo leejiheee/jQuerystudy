@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* Google Web Fonts CDN */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+
+/* 사용 css
+flex, float, text-shadow, fontawesome */
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.star-rating {
+  background-color: #333;
+  width: 250px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+.star-rating div {
+  float: left;
+  width: 50%;
+}
+.stars {}
+.stars .fa-solid {
+  font-size: 18px;
+  cursor: pointer;
+}
+.stars .fa-solid.active {
+  color: yellow;
+  text-shadow: 0 0 3px yellow;
+}
+.print {
+  color: #fff;
+}
+.print img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
